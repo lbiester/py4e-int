@@ -187,7 +187,7 @@ Write Code Questions
 
                   def testOne(self):
                       self.assertEqual(chop([1,2,3,4,5]),[2,3,4],"Tested chop on input [1,2,3,4.5]")
-                      self.assertEqual(chop([1,3,5,7,9,10]),[2,3,5,7,9],"Tested chop on input [1,3,5,7,9,10]")
+                      self.assertEqual(chop([1,3,5,7,9,10]),[3,5,7,9],"Tested chop on input [1,3,5,7,9,10]")
                       self.assertEqual(chop([2,9]),[],"Tested chop on input [2,9]")
 
               myTests().main()
